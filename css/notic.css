@@ -30,3 +30,12 @@ li {
   top: 50%;
   left: 34%;
 }
+
+.close {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: -30px;
+  right: 104px;
+}

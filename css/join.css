@@ -42,15 +42,18 @@ h2 {
 .join_button {
   border: white;
   border-radius: 5px;
-  width: 90%;
+  width: 70%;
   height: 30px;
   font-weight: bold;
-  margin: 10px;
+  margin-bottom: 15px;
   background-color: blue;
   color: white;
   cursor: pointer;
 }
 
+.join_button a {
+  color: white;
+}
 .join_button:hover {
   font-size: 15px;
 }
@@ -62,7 +65,7 @@ form {
 .notic_button {
   position: absolute;
   bottom: -30px;
-  left: 19px;
+  left: 57px;
   background-color: #f8e805;
   border: white;
   width: 100px;
