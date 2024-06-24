@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+.notic {
+  margin: 300px auto;
+  width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.notic h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  transform: translate(-40%, -35%);
+  font-weight: bold;
+}
+
+.notic_text {
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+}
